@@ -6,7 +6,7 @@
             "hub": "Turtle_1",
             "extruder": "extruder",
             "buffer": "Turtle_1",
-            "buffer_status": "Advancing",
+            "buffer_status": "Unknown",
             "lane": 1,
             "map": "T0",
             "load": false,
@@ -14,14 +14,17 @@
             "tool_loaded": false,
             "loaded_to_hub": false,
             "material": null,
-            "spool_id": "",
+            "density": 1.24,
+            "diameter": 1.75,
+            "empty_spool_weight": 190,
+            "spool_id": null,
             "color": "",
-            "weight": "",
+            "weight": 0,
             "extruder_temp": null,
-            "runout_lane": "NONE",
+            "runout_lane": null,
             "filament_status": "Not Ready",
             "filament_status_led": "#ff0000",
-            "status": null
+            "status": "None"
         },
         "lane2": {
             "name": "lane2",
@@ -29,7 +32,7 @@
             "hub": "Turtle_1",
             "extruder": "extruder",
             "buffer": "Turtle_1",
-            "buffer_status": "Advancing",
+            "buffer_status": "Unknown",
             "lane": 2,
             "map": "T1",
             "load": false,
@@ -37,14 +40,17 @@
             "tool_loaded": false,
             "loaded_to_hub": false,
             "material": null,
-            "spool_id": "",
+            "density": 1.24,
+            "diameter": 1.75,
+            "empty_spool_weight": 190,
+            "spool_id": null,
             "color": "",
-            "weight": "",
+            "weight": 0,
             "extruder_temp": null,
-            "runout_lane": "NONE",
+            "runout_lane": null,
             "filament_status": "Not Ready",
             "filament_status_led": "#ff0000",
-            "status": null
+            "status": "None"
         },
         "lane3": {
             "name": "lane3",
@@ -52,7 +58,7 @@
             "hub": "Turtle_1",
             "extruder": "extruder",
             "buffer": "Turtle_1",
-            "buffer_status": "Advancing",
+            "buffer_status": "Unknown",
             "lane": 3,
             "map": "T2",
             "load": false,
@@ -60,14 +66,17 @@
             "tool_loaded": false,
             "loaded_to_hub": false,
             "material": null,
-            "spool_id": "",
+            "density": 1.24,
+            "diameter": 1.75,
+            "empty_spool_weight": 190,
+            "spool_id": null,
             "color": "",
-            "weight": "",
+            "weight": 0,
             "extruder_temp": null,
-            "runout_lane": "NONE",
+            "runout_lane": null,
             "filament_status": "Not Ready",
             "filament_status_led": "#ff0000",
-            "status": ""
+            "status": "None"
         },
         "lane4": {
             "name": "lane4",
@@ -75,7 +84,7 @@
             "hub": "Turtle_1",
             "extruder": "extruder",
             "buffer": "Turtle_1",
-            "buffer_status": "Advancing",
+            "buffer_status": "Unknown",
             "lane": 4,
             "map": "T3",
             "load": false,
@@ -83,14 +92,17 @@
             "tool_loaded": false,
             "loaded_to_hub": false,
             "material": null,
-            "spool_id": "",
+            "density": 1.24,
+            "diameter": 1.75,
+            "empty_spool_weight": 190,
+            "spool_id": null,
             "color": "",
-            "weight": "",
+            "weight": 0,
             "extruder_temp": null,
-            "runout_lane": "NONE",
+            "runout_lane": null,
             "filament_status": "Not Ready",
             "filament_status_led": "#ff0000",
-            "status": null
+            "status": "None"
         }
     },
     "system": {
@@ -104,7 +116,7 @@
             }
         },
         "bypass": {
-            "enabled": 0
+            "enabled": false
         }
     }
 }
